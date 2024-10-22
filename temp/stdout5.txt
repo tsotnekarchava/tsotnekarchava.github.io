@@ -1,0 +1,7 @@
+Feature: Powersaving # power_saving.feature:1
+
+  Scenario: Enter nightmode right away and then go back to high perfomance mode once the nighttime window expires  # power_saving.feature:22
+    Given collar is in high performance operational mode                                                           # steps/power_saving.py:17
+    When the collar receives configuration to enter nightmode rightaway                                            # steps/power_saving.py:112
+    Then the collar should be in low power mode until the window expires                                           # steps/power_saving.py:200
+

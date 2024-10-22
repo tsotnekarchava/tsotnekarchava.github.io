@@ -1,0 +1,10 @@
+Feature: Powersaving # power_saving.feature:1
+
+  Scenario: Don't enter nightmode - received night window is in the past      # power_saving.feature:16
+    Given collar is in high performance operational mode                      # steps/power_saving.py:17
+    When the collar receives configuration to enter nightmode that is in past # steps/power_saving.py:76
+      Assertion Failed: ERROR
+
+    And 25 seconds has passed                                                 # None
+    Then the collar should remain in high performance operational mode        # None
+

@@ -1,0 +1,10 @@
+Feature: Powersaving # power_saving.feature:1
+
+  Scenario: Enter nightmode in future - received nightwindow is 20 seconds ahead in future of collar time  # power_saving.feature:8
+    Given collar is in high performance operational mode                                                   # steps/power_saving.py:17
+    When the collar receives configuration to enter nightmode in 20 seconds                                # steps/power_saving.py:149
+    And 10 seconds has passed                                                                              # steps/base.py:24
+    And collar remains in high performance operational mode                                                # steps/power_saving.py:35
+    And 15 seconds has passed                                                                              # steps/base.py:24
+    Then the collar should be in low power mode                                                            # steps/power_saving.py:178
+

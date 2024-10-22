@@ -1,0 +1,24 @@
+﻿08:26:48 - INFO - *************** RESET ******************
+08:27:27 - INFO - collar sent a poll_message_req
+08:27:28 - INFO - collar sent a status_msg
+08:27:29 - INFO - collar sent a position_msg
+08:27:29 - INFO - collar sent a ubx_ano_req
+08:27:52 - INFO - Disconnected
+08:27:58 - INFO - collar sent a poll_message_req
+08:27:58 - INFO - server sent a poll_message_resp
+08:28:01 - INFO - collar sent a poll_message_req
+08:28:21 - INFO - Disconnected
+08:28:26 - INFO - collar sent a poll_message_req
+08:28:27 - INFO - collar sent a ubx_ano_req
+08:28:44 - INFO - collar sent a poll_message_req
+08:29:05 - INFO - Disconnected
+08:29:12 - INFO - collar sent a ubx_ano_req
+08:29:12 - INFO - Disconnected
+08:29:33 - INFO - collar sent a poll_message_req
+08:29:47 - INFO - collar sent a poll_message_req
+08:29:47 - INFO - collar sent a ubx_ano_req
+08:30:05 - INFO - Disconnected
+08:30:10 - INFO - Disconnected
+08:30:13 - INFO - collar sent a poll_message_req
+08:30:13 - INFO - tearing down
+08:30:13 - INFO - Disconnected

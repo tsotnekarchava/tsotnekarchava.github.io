@@ -1,0 +1,89 @@
+
+************************************************************
+Running parallel scenarios
+************************************************************
+
+Using mono with Renode built from sources might not work correctly.
+Using mono with Renode built from sources might not work correctly.
+Using mono with Renode built from sources might not work correctly.
+Using mono with Renode built from sources might not work correctly.
+Using /home/tsotnek/x3/zephyr/../renode/output/bin/Release as a directory with Renode binaries.
+Using /home/tsotnek/x3/zephyr/../renode/output/bin/Release as a directory with Renode binaries.
+Using /home/tsotnek/x3/zephyr/../renode/output/bin/Release as a directory with Renode binaries.
+Using /home/tsotnek/x3/zephyr/../renode/output/bin/Release as a directory with Renode binaries.
+*************** RESET ******************
+*************** RESET ******************
+*************** RESET ******************
+*************** RESET ******************
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a status_msg
+collar sent a status_msg
+collar sent a status_msg
+collar sent a status_msg
+collar sent a position_msg
+collar sent a position_msg
+collar sent a position_msg
+collar sent a position_msg
+collar sent a ubx_ano_req
+collar sent a ubx_ano_req
+collar sent a ubx_ano_req
+collar sent a ubx_ano_req
+Disconnected
+Disconnected
+Disconnected
+Disconnected
+collar sent a poll_message_req
+server sent a poll_message_resp
+collar sent a poll_message_req
+ERROR
+tearing down
+Disconnected
+collar sent a poll_message_req
+server sent a poll_message_resp
+collar sent a poll_message_req
+server sent a poll_message_resp
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a poll_message_req
+Disconnected
+Disconnected
+Disconnected
+collar sent a poll_message_req
+collar sent a ubx_ano_req
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a ubx_ano_req
+collar sent a ubx_ano_req
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a poll_message_req
+Disconnected
+Disconnected
+Disconnected
+collar sent a ubx_ano_req
+Disconnected
+collar sent a poll_message_req
+collar sent a ubx_ano_req
+collar sent a ubx_ano_req
+Disconnected
+collar sent a poll_message_req
+collar sent a poll_message_req
+tearing down
+Disconnected
+collar sent a poll_message_req
+Disconnected
+collar sent a poll_message_req
+collar sent a ubx_ano_req
+collar sent a ubx_ano_req
+Disconnected
+Disconnected
+collar sent a poll_message_req
+tearing down
+Disconnected
+Disconnected
+collar sent a poll_message_req
+tearing down
+Disconnected

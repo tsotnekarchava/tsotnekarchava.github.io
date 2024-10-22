@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="639.6810164451599" tests='4' skipped='0'
+name="Ing" failures='1' errors='0'><testcase time="69.82003927230835" name="Dont_Enter_Nightmode_-_Received_Night_Window_Is_In_The_Past" status="failed"
+         classname="Powersaving" >
+            <failure message="ERROR" type="AssertionError">
+                    <![CDATA[ Failing step: when the collar receives configuration to enter nightmode that is in past ... failed in 0.0001876s  Location:1
+                        {'step_type': 'when', 'name': 'the collar receives configuration to enter nightmode that is in past', 'text': 'None', 'status': 'failed', 'duration': 0.0001876354217529297, 'error_msg': 'ERROR', 'error_lines': ['  File "/home/tsotnek/x3/.venv/lib/python3.12/site-packages/behave/model.py", line 1329, in run\n    match.run(runner.context)\n', '  File "/home/tsotnek/x3/.venv/lib/python3.12/site-packages/behave/matchers.py", line 98, in run\n    self.func(context, *args, **kwargs)\n', '  File "steps/power_saving.py", line 78, in step_impl\n    raise AssertionError("ERROR")\n'], 'hash': 65661142, 'index': 1}
+                    ]]>
+                </failure><system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Don't enter nightmode - received night window is in the past
+e                given collar is in high performance operational mode ... passed in 69.82s 
+                when the collar receives configuration to enter nightmode that is in past ... failed in 0.0001876s 
+                when 25 seconds has passed ... skipped in 0.0s 
+                then the collar should remain in high performance operational mode ... skipped in 0.0s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="163.57844614982605" name="Enter_Nightmode_Right_Away_-_Received_Nighttime_Window_Is_In_The_Range_Of_Current_Collar_Time" status="passed"
+         classname="Powersaving" >
+            <system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Enter nightmode right away - received nighttime window is in the range of current collar time
+e                given collar is in high performance operational mode ... passed in 70.19s 
+                when the collar receives configuration to enter nightmode rightaway ... passed in 0.005761s 
+                when 15 seconds has passed ... passed in 26.01s 
+                then the collar should be in low power mode ... passed in 67.37s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="201.13690781593323" name="Enter_Nightmode_In_Future_-_Received_Nightwindow_Is_20_Seconds_Ahead_In_Future_Of_Collar_Time" status="passed"
+         classname="Powersaving" >
+            <system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Enter nightmode in future - received nightwindow is 20 seconds ahead in future of collar time
+e                given collar is in high performance operational mode ... passed in 69.99s 
+                when the collar receives configuration to enter nightmode in 20 seconds ... passed in 0.004375s 
+                when 10 seconds has passed ... passed in 18.01s 
+                when collar remains in high performance operational mode ... passed in 0.0002549s 
+                when 15 seconds has passed ... passed in 27.01s 
+                then the collar should be in low power mode ... passed in 86.12s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="205.14562320709229" name="Enter_Nightmode_Right_Away_And_Then_Go_Back_To_High_Perfomance_Mode_Once_The_Nighttime_Window_Expires" status="passed"
+         classname="Powersaving" >
+            <system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Enter nightmode right away and then go back to high perfomance mode once the nighttime window expires
+e                given collar is in high performance operational mode ... passed in 69.5s 
+                when the collar receives configuration to enter nightmode rightaway ... passed in 0.004643s 
+                then the collar should be in low power mode until the window expires ... passed in 135.6s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase></testsuite>
