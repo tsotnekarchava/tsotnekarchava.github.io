@@ -1,0 +1,11 @@
+Feature: ANO # ano.feature:1
+
+  Scenario: ANO - ANO Request Frame Test                                   # ano.feature:4
+    Given the animal is always moving                                      # steps/sensors.py:5
+    When the server receives a poll_message_req                            # steps/reporting.py:64
+    And the server sends a poll response with the following configurations # steps/reporting.py:20
+      | configuration | value |
+      | bEraseFlash   | true  |
+      | bReboot       | true  |
+    Then the server should receive a ANO request within 30 seconds         # steps/ano.py:99
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="661.0606348514557" tests='3' skipped='0'
+name='' failures='0' errors='0'><testcase time="38.61514592170715" name="Ano_-_Ano_Request_Frame_Test" status="passed"
+         classname="Ano" >
+            <system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: ANO - ANO Request Frame Test
+e                given the animal is always moving ... passed in 0.05096s 
+                when the server receives a poll_message_req ... passed in 36.74s 
+                    |configuration|value
+                    |bEraseFlash|bReboot
+                    |true|true
+                when the server sends a poll response with the following configurations ... passed in 0.6098s 
+                then the server should receive a ANO request within 30 seconds ... passed in 1.214s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="308.90794801712036" name="Ano_-_Ano_Response_Frame_Failure_Then_Resumption_Test" status="passed"
+         classname="Ano" >
+            <system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: ANO - ANO Response frame failure then resumption test
+e                given the animal is always moving ... passed in 0.0347s 
+                when the server receives a poll_message_req ... passed in 37.01s 
+                    |configuration|value
+                    |usPollConnectIntervalSec
+                    |60
+                when the server sends a poll response with the following configurations ... passed in 0.6008s 
+                when the server should receive ANO request and respond with ANO responses in 8 frames, however it should stop sending middway to cause failure ... passed in 39.57s 
+                when the server should receive ANO request and respond with ANO responses in 8 frames ... passed in 168.6s 
+                    |configuration|value
+                    |bReboot
+                    |true
+                when the server sends a poll response with the following configurations ... passed in 1.537s 
+                when 5 seconds has passed ... passed in 10.0s 
+                then the collar should not request ANO again if successfully downloaded ... passed in 51.57s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="313.5375409126282" name="Ano_-_Ano_Response_Frame_Test" status="passed"
+         classname="Ano" >
+            <system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: ANO - ANO Response Frame Test
+e                given the animal is always moving ... passed in 0.03067s 
+                when the server receives a poll_message_req ... passed in 37.24s 
+                    |configuration|value
+                    |usPollConnectIntervalSec
+                    |60
+                when the server sends a poll response with the following configurations ... passed in 0.6804s 
+                when the server should receive ANO request and respond with ANO responses in 8 frames ... passed in 211.3s 
+                    |configuration|value
+                    |bReboot
+                    |true
+                when the server sends a poll response with the following configurations ... passed in 2.43s 
+                when 5 seconds has passed ... passed in 10.0s 
+                then the collar should not request ANO again if successfully downloaded ... passed in 51.87s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase></testsuite>

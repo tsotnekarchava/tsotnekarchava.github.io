@@ -1,0 +1,83 @@
+﻿09:33:04 - INFO - *************** RESET ******************
+09:33:41 - INFO - collar sent a poll_message_req
+09:33:42 - INFO - collar sent a status_msg
+09:33:42 - INFO - server sent a poll_message_resp
+09:33:42 - INFO - Starting ANO response sending...
+09:33:43 - INFO - collar sent a position_msg
+09:33:43 - INFO - collar sent a ubx_ano_req
+09:33:43 - INFO - server sent a ubx_ano_reply
+09:33:43 - INFO - Got ubx ano req number 0 and sent ubx_ano_reply
+09:33:45 - INFO - collar sent a poll_message_req
+09:33:52 - INFO - collar sent a ubx_ano_req
+09:33:52 - INFO - server sent a ubx_ano_reply
+09:33:52 - INFO - Got ubx ano req number 1 and sent ubx_ano_reply
+09:34:00 - INFO - collar sent a ubx_ano_req
+09:34:00 - INFO - server sent a ubx_ano_reply
+09:34:00 - INFO - Got ubx ano req number 2 and sent ubx_ano_reply
+09:34:08 - INFO - collar sent a ubx_ano_req
+09:34:08 - INFO - server sent a ubx_ano_reply
+09:34:08 - INFO - Got ubx ano req number 3 and sent ubx_ano_reply
+09:34:16 - INFO - collar sent a ubx_ano_req
+09:34:16 - INFO - server sent a ubx_ano_reply
+09:34:16 - INFO - Got ubx ano req number 4 and sent ubx_ano_reply
+09:34:23 - INFO - collar sent a ubx_ano_req
+09:34:23 - INFO - server sent a ubx_ano_reply
+09:34:23 - INFO - Got ubx ano req number 5 and sent ubx_ano_reply
+09:34:31 - INFO - collar sent a ubx_ano_req
+09:34:31 - INFO - server sent a ubx_ano_reply
+09:34:31 - INFO - Got ubx ano req number 6 and sent ubx_ano_reply
+09:34:39 - INFO - collar sent a ubx_ano_req
+09:34:39 - INFO - server sent a ubx_ano_reply
+09:34:39 - INFO - Got ubx ano req number 7 and sent ubx_ano_reply
+09:34:46 - INFO - collar sent a ubx_ano_req
+09:34:46 - INFO - server sent a ubx_ano_reply
+09:34:46 - INFO - Got ubx ano req number 8 and sent ubx_ano_reply
+09:34:54 - INFO - collar sent a ubx_ano_req
+09:34:54 - INFO - server sent a ubx_ano_reply
+09:34:54 - INFO - Got ubx ano req number 9 and sent ubx_ano_reply
+09:35:02 - INFO - collar sent a ubx_ano_req
+09:35:02 - INFO - server sent a ubx_ano_reply
+09:35:02 - INFO - Got ubx ano req number 10 and sent ubx_ano_reply
+09:35:10 - INFO - collar sent a ubx_ano_req
+09:35:10 - INFO - server sent a ubx_ano_reply
+09:35:10 - INFO - Got ubx ano req number 11 and sent ubx_ano_reply
+09:35:17 - INFO - collar sent a ubx_ano_req
+09:35:17 - INFO - server sent a ubx_ano_reply
+09:35:17 - INFO - Got ubx ano req number 12 and sent ubx_ano_reply
+09:35:25 - INFO - collar sent a ubx_ano_req
+09:35:25 - INFO - server sent a ubx_ano_reply
+09:35:25 - INFO - Got ubx ano req number 13 and sent ubx_ano_reply
+09:35:32 - INFO - collar sent a poll_message_req
+09:35:32 - INFO - collar sent a position_msg
+09:35:33 - INFO - collar sent a ubx_ano_req
+09:35:33 - INFO - server sent a ubx_ano_reply
+09:35:33 - INFO - Got ubx ano req number 14 and sent ubx_ano_reply
+09:35:39 - INFO - collar sent a ubx_ano_req
+09:35:39 - INFO - server sent a ubx_ano_reply
+09:35:39 - INFO - Got ubx ano req number 15 and sent ubx_ano_reply
+09:35:47 - INFO - collar sent a ubx_ano_req
+09:35:47 - INFO - server sent a ubx_ano_reply
+09:35:47 - INFO - Got ubx ano req number 16 and sent ubx_ano_reply
+09:35:55 - INFO - collar sent a ubx_ano_req
+09:35:55 - INFO - server sent a ubx_ano_reply
+09:35:55 - INFO - Got ubx ano req number 17 and sent ubx_ano_reply
+09:36:02 - INFO - collar sent a ubx_ano_req
+09:36:02 - INFO - server sent a ubx_ano_reply
+09:36:02 - INFO - Got ubx ano req number 18 and sent ubx_ano_reply
+09:36:10 - INFO - collar sent a ubx_ano_req
+09:36:10 - INFO - server sent a ubx_ano_reply
+09:36:10 - INFO - Got ubx ano req number 19 and sent ubx_ano_reply
+09:36:34 - INFO - Disconnected
+09:36:38 - INFO - collar sent a poll_message_req
+09:36:56 - INFO - Disconnected
+09:37:16 - INFO - collar sent a poll_message_req
+09:37:16 - INFO - server sent a poll_message_resp
+09:37:19 - INFO - collar sent a poll_message_req
+09:37:27 - INFO - Disconnected
+09:37:27 - INFO - *************** RESET ******************
+09:37:57 - INFO - collar sent a poll_message_req
+09:38:14 - INFO - Disconnected
+09:38:18 - INFO - collar sent a poll_message_req
+09:38:18 - INFO - Didn't get UBX request as expected!
+09:38:18 - INFO - tearing down
+09:38:18 - INFO - Disconnected

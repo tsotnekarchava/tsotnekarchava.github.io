@@ -1,0 +1,9 @@
+﻿09:33:04 - INFO - *************** RESET ******************
+09:33:41 - INFO - collar sent a poll_message_req
+09:33:41 - INFO - collar sent a status_msg
+09:33:41 - INFO - server sent a poll_message_resp
+09:33:42 - INFO - collar sent a position_msg
+09:33:43 - INFO - collar sent a ubx_ano_req
+09:33:43 - INFO - ANO requested successfully!
+09:33:43 - INFO - tearing down
+09:33:43 - INFO - Disconnected

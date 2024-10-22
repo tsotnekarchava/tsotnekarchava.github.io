@@ -1,0 +1,187 @@
+
+************************************************************
+Running parallel scenarios
+************************************************************
+
+Using mono with Renode built from sources might not work correctly.
+Using mono with Renode built from sources might not work correctly.
+Using mono with Renode built from sources might not work correctly.
+Using /home/tsotnek/x3/zephyr/../renode/output/bin/Release as a directory with Renode binaries.
+Using /home/tsotnek/x3/zephyr/../renode/output/bin/Release as a directory with Renode binaries.
+Using /home/tsotnek/x3/zephyr/../renode/output/bin/Release as a directory with Renode binaries.
+*************** RESET ******************
+*************** RESET ******************
+*************** RESET ******************
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a status_msg
+server sent a poll_message_resp
+collar sent a status_msg
+server sent a poll_message_resp
+Starting ANO response sending...
+collar sent a status_msg
+server sent a poll_message_resp
+Starting ANO response sending...
+collar sent a position_msg
+collar sent a position_msg
+collar sent a ubx_ano_req
+ANO requested successfully!
+tearing down
+Disconnected
+collar sent a position_msg
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 0 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 0 and sent ubx_ano_reply
+collar sent a poll_message_req
+collar sent a poll_message_req
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 1 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 1 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 2 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 2 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 3 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 3 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 4 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 4 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 5 and sent ubx_ano_reply
+Starting ANO response sending...
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 5 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 6 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 6 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 7 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 7 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 8 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 8 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 9 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 9 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 10 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 10 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 11 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 11 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 12 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 12 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 13 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 13 and sent ubx_ano_reply
+collar sent a poll_message_req
+collar sent a position_msg
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 14 and sent ubx_ano_reply
+collar sent a poll_message_req
+collar sent a position_msg
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 14 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 15 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 15 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 16 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 16 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 17 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 17 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 18 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 18 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 19 and sent ubx_ano_reply
+collar sent a ubx_ano_req
+server sent a ubx_ano_reply
+Got ubx ano req number 19 and sent ubx_ano_reply
+Disconnected
+Disconnected
+collar sent a poll_message_req
+collar sent a poll_message_req
+Disconnected
+Disconnected
+collar sent a poll_message_req
+server sent a poll_message_resp
+collar sent a poll_message_req
+collar sent a poll_message_req
+server sent a poll_message_resp
+collar sent a poll_message_req
+Disconnected
+*************** RESET ******************
+Disconnected
+*************** RESET ******************
+collar sent a poll_message_req
+collar sent a poll_message_req
+Disconnected
+collar sent a poll_message_req
+Didn't get UBX request as expected!
+tearing down
+Disconnected
+Disconnected
+collar sent a poll_message_req
+Didn't get UBX request as expected!
+tearing down
+Disconnected

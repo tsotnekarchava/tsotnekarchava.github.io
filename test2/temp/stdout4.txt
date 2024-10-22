@@ -1,0 +1,16 @@
+Feature: ANO # ano.feature:1
+
+  Scenario: ANO - ANO Response frame failure then resumption test                                                                                 # ano.feature:30
+    Given the animal is always moving                                                                                                             # steps/sensors.py:5
+    When the server receives a poll_message_req                                                                                                   # steps/reporting.py:64
+    And the server sends a poll response with the following configurations                                                                        # steps/reporting.py:20
+      | configuration            | value |
+      | usPollConnectIntervalSec | 60    |
+    And the server should receive ANO request and respond with ANO responses in 8 frames, however it should stop sending middway to cause failure # steps/ano.py:57
+    And the server should receive ANO request and respond with ANO responses in 8 frames                                                          # steps/ano.py:26
+    And the server sends a poll response with the following configurations                                                                        # steps/reporting.py:20
+      | configuration | value |
+      | bReboot       | true  |
+    And 5 seconds has passed                                                                                                                      # steps/base.py:9
+    Then the collar should not request ANO again if successfully downloaded                                                                       # steps/ano.py:81
+
